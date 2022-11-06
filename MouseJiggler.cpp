@@ -41,7 +41,7 @@ int main()
 		return 0;
 	}*/
 	char shutDown = 'n';
-	cout << "Do you want to shutdown the system at the and (Y/N) ?";
+	cout << "Do you want to shutdown the system at the end (Y/N) ?";
 	cin >> shutDown;
 
 	if (shutDown != 'y' && shutDown != 'Y' && shutDown != 'n' && shutDown != 'N')
